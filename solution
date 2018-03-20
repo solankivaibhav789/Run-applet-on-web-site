@@ -1,0 +1,22 @@
+Now a days java applet is not properly support on web browser.
+because of certificate issue
+why browser not give certificate for this?
+because when applet run than it create its own control, its not have under browser.
+
+Goal->
+So over team goal is that find out way to support java file in web browser.
+We find AjaxSwing.
+AjaxSwing is a web deployment platform for Java Swing applications. 
+It allows companies that built Java desktop applications to run them as web applications.
+
+How it works->
+
+1) AjaxSwing is a deployment platform that automatically converts Java Swing and AWT applications into AJAX web applications at runtime.
+2) It can be thought of as a runtime Java to HTML converter that migrates Java desktop applications to web applications. 
+   AjaxSwing is unique in that it requires virtually no modifications to existing applications, 
+   and does not require programmers to learn any APIs other then AWT/Swing. 
+3) The same application can run as thick Swing client or as a browser-based thin AJAX RIA, giving dual client solution to Java.
+
+
+Apache Tomcat
+ Built-in Apache Tomcat web server gives you everything you need to deploy and run your applications.
